@@ -110,7 +110,7 @@ $(document).ready(function () {
 
     // validate contact form
     $(function () {
-        $('#contact-form').validate({
+        $('#contact Me').validate({
             rules: {
                 name: {
                     required: true,
