@@ -69,7 +69,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: rgb(109, 100, 100);
     z-index: 10000
 }
 
@@ -241,12 +241,12 @@ nav li a {
 }
 
 a:focus {
-    color: #444;
+    color: rgb(14, 13, 13);
     text-decoration: none;
 }
 
 a:hover {
-    color: #425BB5;
+    color: #1736a7;
     text-decoration: none;
 }
 
@@ -302,7 +302,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #e4e4e4
 }
 
 .experience-row {
@@ -352,9 +352,9 @@ a.active {
 }
 
 .timeline-event:hover .timeline-event-icon {
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    background-color: #425BB5;
+    -webkit-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+    background-color: #04c097;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
@@ -714,7 +714,7 @@ fieldset {
 .social {
     padding-left: 0;
     list-style: none;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .social li {
