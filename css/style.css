@@ -280,6 +280,7 @@ a.active {
 
 #about {
     padding: 100px 0;
+
 }
 
 .about-img-div img {
@@ -302,7 +303,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #e4e4e4
+    background: hsla(191, 38%, 89%, 0.959)
 }
 
 .experience-row {
@@ -478,7 +479,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background: url(../img/portfolio/07.jpg);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -501,8 +502,8 @@ a.active {
 
 .portfolio_item .portfolio_item_hover .item_info span {
     display: block;
-    color: #fff;
-    font-size: 18px;
+    color: rgb(165, 121, 0);
+    font-size: 28px;
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
     -webkit-transition: all .3s ease-in-out .3s;
@@ -514,9 +515,10 @@ a.active {
     font-style: normal;
     display: inline-block;
     background-color: #425BB5;
+    border-radius: 20px;
     padding: 5px 20px;
-    color: #fff;
-    margin-top: 10px;
+    color: rgb(238, 174, 0);
+    margin-top: 20px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
     -webkit-transition: all .3s ease-in-out .3s;
@@ -530,6 +532,7 @@ a.active {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
+    border-radius: 40px;
 }
 
 .portfolio_item:hover .item_info em,
@@ -537,6 +540,7 @@ a.active {
     opacity: 1;
     -webkit-transform: translateX(0);
     transform: translateX(0);
+    
 }
 
 .portfolio .categories-grid .categories ul li {
@@ -554,20 +558,24 @@ a.active {
     display: inline-block;
     margin: 0 auto;
     text-align: center;
+    
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(40%);
+    border-radius: 40px;
 }
 
 .portfolio-padding {
     padding: 50px 0;
+    border-radius: 30px;
 }
 
 .portfolio-inner {
     padding-bottom: 0 !important;
     padding-top: 55px;
+    
 }
 
 .modal-content {
@@ -577,6 +585,7 @@ a.active {
 
 .popup-modal {
     background: #fff;
+    
 }
 
 .close-popup-modal {
@@ -596,12 +605,14 @@ a.active {
 
 .animatedModal-on .close-popup-modal {
     opacity: 1;
+    
 }
 
 .modal-content h2 {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     line-height: 50px;
+    
 }
 
 
